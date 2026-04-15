@@ -10,11 +10,3 @@ Contenido
   4. Métricas de rendimiento (time per token, throughput, tokens entrada/salida).
 
 - requirements.txt: dependencias necesarias.
-
-Instrucciones rápidas
-1. Clona el repositorio.
-2. Crea un virtualenv e instala dependencias:
-   pip install -r requirements.txt
-3. Ejecuta localmente:
-   streamlit run app.py
-4. Para el módulo Groq: obtén una API Key gratuita en Groq Cloud y pégala en la barra lateral de la app.
