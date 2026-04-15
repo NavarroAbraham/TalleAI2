@@ -75,7 +75,7 @@ def groq_generate(client, model, prompt, max_tokens=64, temperature=0.2, top_p=1
 st.title("Taller Técnico: Desmontando los LLMs — App interactiva")
 
 st.sidebar.header("Configuración general")
-api_key = st.sidebar.text_input("Groq API Key (obligatorio para módulo 3)", type="password")
+api_key = st.sidebar.text_input("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", type="password")
 use_groq = st.sidebar.checkbox("Activar módulo Groq (API)", value=bool(api_key))
 embedding_backend = st.sidebar.selectbox("Embeddings backend", ["sentence-transformers", "openai"], index=0)
 st.sidebar.markdown("Recomendado: sentence-transformers (local, rápido).")
